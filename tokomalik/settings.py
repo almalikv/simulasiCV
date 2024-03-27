@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'tokobuku',
+    'mybookstore',
+    'MyCV',
     'import_export',
 ]
 

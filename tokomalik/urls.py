@@ -21,7 +21,9 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('tokobuku.urls'))
+    path('', include('tokobuku.urls')),
+    path('', include('MyCV.urls')),
+    path('', include('mybookstore.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 handler404 = 'tokobuku.views.custom_404'
